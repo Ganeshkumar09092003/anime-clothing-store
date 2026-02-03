@@ -1,4 +1,4 @@
-/* ==================== FOOTER ==================== */
+/* FOOTER */
 
 .footer {
   background: var(--color-bg-darker);
@@ -100,7 +100,7 @@
   font-size: 0.875rem;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .footer {

@@ -1,10 +1,10 @@
-/* ==================== HOME PAGE ==================== */
+/* HOME PAGE */
 
 .home {
   width: 100%;
 }
 
-/* ==================== HERO SECTION ==================== */
+/* HERO SECTION */
 
 .hero {
   min-height: calc(100vh - 80px);
@@ -149,7 +149,7 @@
   }
 }
 
-/* ==================== FEATURES SECTION ==================== */
+/* FEATURES SECTION */
 
 .features-section {
   padding: var(--spacing-xl) var(--spacing-md);
@@ -201,7 +201,7 @@
   font-size: 0.9375rem;
 }
 
-/* ==================== COLLECTIONS SECTION ==================== */
+/* COLLECTIONS SECTION */
 
 .collections-section {
   padding: var(--spacing-xl) var(--spacing-md);
@@ -297,7 +297,7 @@
   transform: translateX(4px);
 }
 
-/* ==================== CATEGORIES SECTION ==================== */
+/* CATEGORIES SECTION */
 
 .categories-section {
   padding: var(--spacing-xl) var(--spacing-md);
@@ -361,7 +361,7 @@
   z-index: 1;
 }
 
-/* ==================== CTA SECTION ==================== */
+/* CTA SECTION */
 
 .cta-section {
   padding: var(--spacing-xl) var(--spacing-md);
@@ -410,7 +410,7 @@
   margin-right: auto;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 1024px) {
   .hero {

@@ -1,4 +1,4 @@
-/* ==================== LOADING COMPONENT ==================== */
+/* LOADING COMPONENT */
 
 .loading-container {
   display: flex;
@@ -34,7 +34,7 @@
   font-weight: 500;
 }
 
-/* ==================== VARIATIONS ==================== */
+/* VARIATIONS */
 
 /* Small Loading */
 .loading-container.small {

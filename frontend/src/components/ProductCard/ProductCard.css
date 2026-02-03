@@ -1,4 +1,4 @@
-/* ==================== PRODUCT CARD ==================== */
+/* PRODUCT CARD */
 
 .product-card {
   position: relative;
@@ -175,7 +175,7 @@
   text-decoration: line-through;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .product-info {

@@ -1,4 +1,4 @@
-/* ==================== GLOBAL STYLES ==================== */
+/* GLOBAL STYLES */
 
 * {
   margin: 0;
@@ -100,7 +100,7 @@ body {
   flex-direction: column;
 }
 
-/* ==================== TYPOGRAPHY ==================== */
+/* TYPOGRAPHY */
 
 h1,
 h2,
@@ -116,18 +116,23 @@ h6 {
 h1 {
   font-size: clamp(2rem, 5vw, 3.5rem);
 }
+
 h2 {
   font-size: clamp(1.75rem, 4vw, 2.5rem);
 }
+
 h3 {
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
+
 h4 {
   font-size: clamp(1.25rem, 2.5vw, 1.5rem);
 }
+
 h5 {
   font-size: clamp(1.1rem, 2vw, 1.25rem);
 }
+
 h6 {
   font-size: clamp(1rem, 1.5vw, 1.1rem);
 }
@@ -137,7 +142,7 @@ p {
   line-height: 1.7;
 }
 
-/* ==================== LAYOUT ==================== */
+/* LAYOUT */
 
 .app-layout {
   min-height: 100vh;
@@ -151,7 +156,7 @@ p {
   min-height: calc(100vh - 80px);
 }
 
-/* ==================== BUTTONS ==================== */
+/* BUTTONS */
 
 .btn {
   display: inline-flex;
@@ -222,7 +227,7 @@ p {
   font-size: 1.125rem;
 }
 
-/* ==================== FORMS ==================== */
+/* FORMS */
 
 input,
 textarea,
@@ -256,7 +261,7 @@ textarea {
   min-height: 100px;
 }
 
-/* ==================== CARDS ==================== */
+/* CARDS */
 
 .card {
   background: var(--color-bg-card);
@@ -266,7 +271,7 @@ textarea {
   border: 1px solid var(--color-border);
 }
 
-/* ==================== UTILITIES ==================== */
+/* UTILITIES */
 
 .gradient-text {
   background: var(--gradient-primary);
@@ -284,9 +289,11 @@ textarea {
 .text-center {
   text-align: center;
 }
+
 .text-left {
   text-align: left;
 }
+
 .text-right {
   text-align: right;
 }
@@ -294,29 +301,36 @@ textarea {
 .flex {
   display: flex;
 }
+
 .flex-col {
   flex-direction: column;
 }
+
 .items-center {
   align-items: center;
 }
+
 .justify-center {
   justify-content: center;
 }
+
 .justify-between {
   justify-content: space-between;
 }
+
 .gap-sm {
   gap: var(--spacing-sm);
 }
+
 .gap-md {
   gap: var(--spacing-md);
 }
+
 .gap-lg {
   gap: var(--spacing-lg);
 }
 
-/* ==================== SCROLLBAR ==================== */
+/* SCROLLBAR */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -336,13 +350,14 @@ textarea {
   background: var(--color-primary);
 }
 
-/* ==================== ANIMATIONS ==================== */
+/* ANIMATIONS */
 
 @keyframes fadeIn {
   from {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -354,6 +369,7 @@ textarea {
     opacity: 0;
     transform: translateX(30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -361,10 +377,12 @@ textarea {
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
@@ -384,7 +402,7 @@ textarea {
   animation: slideInRight 0.6s ease;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .main-content {

@@ -1,4 +1,4 @@
-/* ==================== ORDERS PAGE ==================== */
+/* ORDERS PAGE */
 
 .orders-page {
   min-height: calc(100vh - 80px);
@@ -25,7 +25,7 @@
   font-weight: 600;
 }
 
-/* ==================== EMPTY ORDERS ==================== */
+/* EMPTY ORDERS */
 
 .empty-orders {
   display: flex;
@@ -54,7 +54,7 @@
   color: var(--color-text-secondary);
 }
 
-/* ==================== ORDERS LIST ==================== */
+/* ORDERS LIST */
 
 .orders-list {
   display: flex;
@@ -257,7 +257,7 @@
   font-size: 0.9375rem;
 }
 
-/* ==================== PAGINATION ==================== */
+/* PAGINATION */
 
 .orders-pagination {
   display: flex;
@@ -294,7 +294,7 @@
   font-weight: 500;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .orders-page {

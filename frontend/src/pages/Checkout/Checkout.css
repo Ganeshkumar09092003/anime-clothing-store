@@ -1,4 +1,4 @@
-/* ==================== CHECKOUT PAGE ==================== */
+/* CHECKOUT PAGE */
 
 .checkout-page {
   min-height: calc(100vh - 80px);
@@ -6,13 +6,13 @@
   padding: var(--spacing-lg) var(--spacing-md);
 }
 
-.checkout-page > h1 {
+.checkout-page>h1 {
   max-width: 1280px;
   margin: 0 auto var(--spacing-lg);
   font-size: clamp(2rem, 4vw, 2.5rem);
 }
 
-/* ==================== ORDER SUCCESS ==================== */
+/* ORDER SUCCESS */
 
 .order-success {
   max-width: 600px;
@@ -46,9 +46,11 @@
     transform: scale(0.8);
     opacity: 0;
   }
+
   50% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
     opacity: 1;
@@ -100,7 +102,7 @@
   width: 100%;
 }
 
-/* ==================== CHECKOUT CONTAINER ==================== */
+/* CHECKOUT CONTAINER */
 
 .checkout-container {
   max-width: 1280px;
@@ -110,7 +112,7 @@
   gap: var(--spacing-xl);
 }
 
-/* ==================== CHECKOUT FORM ==================== */
+/* CHECKOUT FORM */
 
 .checkout-form {
   display: flex;
@@ -189,7 +191,7 @@
   box-shadow: none;
 }
 
-/* ==================== PAYMENT OPTIONS ==================== */
+/* PAYMENT OPTIONS */
 
 .payment-options {
   display: flex;
@@ -258,7 +260,7 @@
   margin-top: var(--spacing-md);
 }
 
-/* ==================== ORDER SUMMARY ==================== */
+/* ORDER SUMMARY */
 
 .order-summary {
   background: var(--color-bg-card);
@@ -392,7 +394,7 @@
   border-top: 1px solid var(--color-border);
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 1024px) {
   .checkout-container {

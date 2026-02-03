@@ -1,4 +1,4 @@
-/* ==================== PRODUCT DETAIL PAGE ==================== */
+/* PRODUCT DETAIL PAGE */
 
 .product-detail {
   min-height: calc(100vh - 80px);
@@ -42,7 +42,7 @@
   padding: var(--spacing-xl);
 }
 
-/* ==================== GALLERY ==================== */
+/* GALLERY */
 
 .product-gallery {
   display: flex;
@@ -117,7 +117,7 @@
   display: block;
 }
 
-/* ==================== PRODUCT INFO ==================== */
+/* PRODUCT INFO */
 
 .product-info-detail {
   display: flex;
@@ -190,7 +190,7 @@
   font-size: 1rem;
 }
 
-/* ==================== SIZE SECTION ==================== */
+/* SIZE SECTION */
 
 .size-section {
   display: flex;
@@ -278,7 +278,7 @@
   transform: translateY(-50%) rotate(-15deg);
 }
 
-/* ==================== QUANTITY SECTION ==================== */
+/* QUANTITY SECTION */
 
 .quantity-section {
   display: flex;
@@ -288,7 +288,7 @@
   border-bottom: 1px solid var(--color-border);
 }
 
-.quantity-section > span {
+.quantity-section>span {
   font-weight: 700;
   color: var(--color-text-primary);
   font-size: 1rem;
@@ -337,7 +337,7 @@
   font-size: 1rem;
 }
 
-/* ==================== ACTIONS ==================== */
+/* ACTIONS */
 
 .product-actions {
   display: flex;
@@ -354,7 +354,7 @@
   padding: 0;
 }
 
-/* ==================== PRODUCT DETAILS ==================== */
+/* PRODUCT DETAILS */
 
 .product-details-section {
   background: var(--color-bg-elevated);
@@ -387,7 +387,7 @@
   font-weight: 600;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 1024px) {
   .product-detail-container {

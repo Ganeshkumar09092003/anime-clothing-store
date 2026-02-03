@@ -1,18 +1,16 @@
-/* ==================== PRODUCTS PAGE ==================== */
+/* PRODUCTS PAGE */
 
 .products-page {
   min-height: calc(100vh - 80px);
   background: var(--color-bg-dark);
 }
 
-/* ==================== HEADER ==================== */
+/* HEADER */
 
 .products-header {
-  background: linear-gradient(
-    135deg,
-    var(--color-bg-darker) 0%,
-    var(--color-bg-dark) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--color-bg-darker) 0%,
+      var(--color-bg-dark) 100%);
   padding: var(--spacing-xl) var(--spacing-md) var(--spacing-lg);
   border-bottom: 1px solid var(--color-border);
 }
@@ -39,7 +37,7 @@
   font-size: 1rem;
 }
 
-/* ==================== CONTAINER ==================== */
+/* CONTAINER */
 
 .products-container {
   max-width: 1280px;
@@ -51,7 +49,7 @@
   position: relative;
 }
 
-/* ==================== MOBILE FILTER TOGGLE ==================== */
+/* MOBILE FILTER TOGGLE */
 
 .mobile-filter-toggle {
   display: none;
@@ -87,7 +85,7 @@
   box-shadow: 0 0 8px var(--color-primary);
 }
 
-/* ==================== FILTERS SIDEBAR ==================== */
+/* FILTERS SIDEBAR */
 
 .filters-sidebar {
   background: var(--color-bg-card);
@@ -265,7 +263,7 @@
   outline: none;
 }
 
-/* ==================== PRODUCTS MAIN ==================== */
+/* PRODUCTS MAIN */
 
 .products-main {
   min-height: 500px;
@@ -305,7 +303,7 @@
   margin-bottom: var(--spacing-lg);
 }
 
-/* ==================== PAGINATION ==================== */
+/* PAGINATION */
 
 .pagination {
   display: flex;
@@ -342,7 +340,7 @@
   font-weight: 500;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/* RESPONSIVE */
 
 @media (max-width: 1024px) {
   .products-container {
