@@ -1,9 +1,3 @@
-/**
- * Script to fix stale MongoDB indexes
- * Run this script once to drop old indexes that no longer match the schema
- * 
- * Usage: node src/utils/fixIndexes.js
- */
 
 import mongoose from 'mongoose';
 import { env } from '../config/env.js';
